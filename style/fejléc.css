@@ -96,6 +96,7 @@ nav {
 
 .nav-list_elem a {
   color: var(--gray);
+  display:block;
 }
 
 .nav-list_elem:hover {
