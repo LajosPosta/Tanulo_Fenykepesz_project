@@ -31,6 +31,14 @@ textarea {
   border-radius: 5px;
 }
 
+form input:not(:last-child):focus  {
+  outline: 2px solid var(--greenhover);
+}
+
+textarea:focus {
+  outline: 2px solid var(--greenhover);
+}
+
 [type="submit"] {
   font-family: var(--secondaryfont);
   font-weight: 700;

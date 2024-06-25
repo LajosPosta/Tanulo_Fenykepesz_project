@@ -10,20 +10,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .altarolo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 80vw;
-  margin-bottom: 2rem;
+  margin: 0 2rem 2rem 2rem;
 }
 
 .altarolo h3 {
-    text-align: center;
+  text-align: center;
   font-family: var(--primaryfont);
   font-weight: 500;
   padding-bottom: 1.5rem;
@@ -60,17 +58,18 @@
 @media screen and (min-width: 576px) {
   .szolgaltatasaim-tarolo {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 50%);
     grid-template-areas: 
     "rendezveny eskuvo"
     "csalad portré";
-    gap: 2rem;
-    margin: 0 2rem;
+    gap: 1rem;
+    margin: 2rem;
   }
 
 
   .altarolo {
 width: auto;
+
   }
 
   .altarolo h3 {
@@ -99,10 +98,10 @@ width: auto;
 @media screen and (min-width: 1200px) {
     .szolgaltatasaim-tarolo {
         display: grid;
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(4, 25%);
         grid-template-areas: 
         "rendezveny eskuvo csalad portré";
-        gap: 2rem;
+        gap: 1rem;
         margin: 0 2rem;
       }
 
