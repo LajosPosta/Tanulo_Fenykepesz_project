@@ -10,7 +10,8 @@
     https://fontawesome.com/
 
 # Should be
-    scroll up button
-    svg social icons offline
+    scroll up button javascript - Péter
+    svg social icons offline - Péter
+    nav list animation - Me
     
 
