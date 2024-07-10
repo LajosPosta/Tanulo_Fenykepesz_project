@@ -12,6 +12,6 @@
 # Should be
     scroll up button javascript - Péter
     svg social icons offline - Péter
-    nav list animation - Me
+
     
 

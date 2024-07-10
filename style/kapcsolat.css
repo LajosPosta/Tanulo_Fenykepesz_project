@@ -32,7 +32,7 @@ textarea {
   border-radius: 5px;
 }
 
-form input:not(:last-child):focus  {
+form input:not(:last-child):focus {
   outline: 2px solid var(--greenhover);
 }
 
@@ -65,7 +65,7 @@ textarea:focus {
 }
 
 .btn {
-  width: 2.5rem;
+  width: 2rem;
   transition: 0.2s linear;
   color: aqua;
   background-color: var(--footer-color);
@@ -75,6 +75,12 @@ textarea:focus {
   color: var(--greenhover);
   transform: scale(1.3);
   transition: 0.2s linear;
+}
+
+@media screen and (min-width: 576px) {
+  .btn {
+    width: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 992px) {

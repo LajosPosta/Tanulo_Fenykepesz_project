@@ -1,16 +1,28 @@
 .footer-tarolo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background-color: var(--footer-color);
-    font-weight: 500;
-    gap: 1rem;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--footer-color);
+  font-weight: 500;
+  gap: 1rem;
 }
 
 .footer-tarolo > * {
-    font-family: var(--secondaryfont);
-    color: var(--white);
-    font-weight: bold;
+  font-family: var(--secondaryfont);
+  color: var(--white);
+  font-weight: bold;
 }
+
+.scroll-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+/*.arrow-up::before {
+    content: "";
+    background-image: url(../assets/icons/arrow-up-solid.svg);
+}*/
