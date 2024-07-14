@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: var(--footer-color);
+  background-color: #08b57b;
   font-weight: 500;
   gap: 1rem;
 }
