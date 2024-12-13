@@ -27,7 +27,7 @@ header img {
   cursor: pointer;
 }
 
-.hamburger-line {
+.hamburger-lines {
   background-color: black;
   height: 4px;
   transition: 0.3s;
